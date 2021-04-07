@@ -1,0 +1,69 @@
+
+body {
+background:  #566D7E;
+}
+
+h1 {
+color: #fff;
+font-size: 35px;
+font-family: monospace;
+text-transform: uppercase;
+margin-top: 50px;
+}
+
+
+#stopwatch {
+color:  #BCC6CC;
+background: #C2DFFF;
+font-size: 65px;
+font-family: "Roboto",sans-serif;
+margin-top: 30px;
+border-radius: 7px;
+width: 260px;
+border: 2px #fff outset;
+}
+
+ul li {
+display: inline-block;
+margin: 4px;
+position: relative;
+left: -20px;
+}
+
+button {
+font-size: 20px;
+font-family: "Robot",sans-serif;
+height: 45px;
+width: 75px;
+color: #000;
+background: #fff;
+border: 2px #fff outset;
+border-radius: 5px;
+outline: none;
+cursor: pointer;
+}
+
+button:hover {
+color: #fff;
+background: #000;
+border: 1px #fff outset;
+}
+
+
+.top {
+width: 285px;
+height: 30px;
+border-bottom: 4px  solid #fff;
+border-radius: 16px;
+transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+position: relative;
+top: 45px;
+}
+
+.holder {
+width: 285px;
+height: 30px;
+border-bottom: 4px  solid #fff;
+border-radius: 16px;
+}
